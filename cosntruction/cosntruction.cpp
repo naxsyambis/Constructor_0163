@@ -45,6 +45,18 @@ void Mahasiswa::cetak()
 
 int main()
 {
-    
+	Mahasiswa mtr1;
+	Mahasiswa mtr2(5);
+	Mahasiswa mtr3("Kirin");
+	Mahasiswa mtr4(20, "yamaha");
+
+	mtr1.cetak();
+	mtr2.cetak();
+	mtr3.cetak();
+	mtr4.cetak();
+
+	system("pause");
+
+	return 0;
 }
 

@@ -4,7 +4,10 @@ using namespace std;
 
 class Mahasiswa {
 
-
+public:
+    static int nim; // yang nanti isinya sama adalah nim
+    int id; 
+    string nama; 
 
 };
 

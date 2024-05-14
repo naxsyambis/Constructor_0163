@@ -20,6 +20,10 @@ public:
     mahasiswa(string pnama) :nama(pnama) { setID(); } // :nama(pnama) itu sama aja dengan nama = pnama; 
 };
 
+int mahasiswa::nim = 0; // di akses diluar kelas
+
+
+
 int main()
 {
     

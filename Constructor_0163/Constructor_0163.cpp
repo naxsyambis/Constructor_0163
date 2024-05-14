@@ -24,7 +24,11 @@ void Mahasiswa::setID() {
     id = ++nim; // menambahkan plus satu, ditambahkan dulu baru diberikan
 }
 
-
+void Mahasiswa::printAll() {
+    cout << "ID =" << id << endl;
+    cout << "Nama =" << nama << endl;
+    cout << endl;
+}
 
 int main()
 {

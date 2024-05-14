@@ -30,10 +30,26 @@ void Mahasiswa::printAll() {
     cout << endl;
 }
 
+
 int main()
 {
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Asroni");
+    mhs2.nim = 20; // mengakses dan mengganti nilai mhs2,3,4
+    Mahasiswa mhs3("Andi Kurniawan");
+    Mahasiswa mhs4("Joko Purbo");
 
+    mhs1.printAll();
+    mhs2.printAll();
+    mhs3.printAll();
+    mhs4.printAll();
+
+    system("pause");
+
+    return 0;
 }
+
+
 
 
 

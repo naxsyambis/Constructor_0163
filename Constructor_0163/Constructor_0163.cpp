@@ -18,6 +18,8 @@ public:
 
 };
 
+int Mahasiswa::nim = 163; // dipanggil kelas baru objeknya, kelas mahasiswa di akses diluar dengan ::
+
 int main()
 {
 

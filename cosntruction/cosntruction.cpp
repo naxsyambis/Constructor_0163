@@ -25,6 +25,19 @@ public:
 	void cetak();
 };
 
+Mahasiswa::Mahasiswa(string Nama)
+{
+	nim = 0;
+	nama = " ";
+}
+
+Mahasiswa::Mahasiswa(int iNim, string iNama)
+{
+	nim = iNim;
+	nama = iNama;
+}
+
+
 
 int main()
 {
